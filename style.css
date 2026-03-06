@@ -2,6 +2,7 @@ body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(225, 166, 37);
+  
 }
 
 button {
@@ -27,4 +28,5 @@ button {
   position: relative;
   top: 290px;
   left: 570px;
+
 }
