@@ -7,13 +7,13 @@ rosso.addEventListener('click', () => {
     document.body.style.backgroundColor = 'red';
 
     popup.textContent = "ACCESO";
-    popup.style.color = "red";
+    popup.style.backgroundColor = "red";
 });
 
 verde.addEventListener('click', () => {
     document.body.style.backgroundColor = 'green';
 
     popup.textContent = "SPENTO";
-    popup.style.color = "green";
+    popup.style.backgroundColor = "green";
 });
 
