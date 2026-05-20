@@ -30,6 +30,14 @@ button:hover {
   background-color: green;
 }
 
+#popup {
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  align-content: center;
+}
+
 
 .creatore {
   width: 100%;
