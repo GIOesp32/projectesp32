@@ -1,5 +1,9 @@
 body {
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(225, 166, 37);
   
@@ -12,12 +16,18 @@ button {
   font-size: 16px;
   color: blue;
   margin: 10px;
+  border: none;
+}
+
+html {
+  font-family: sans-serif;
+  color: #333;
 }
 
 button:hover {
   background-color: black;
   color: white;
-  box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 #b-rosso {
@@ -34,12 +44,11 @@ button:hover {
   padding: 20px;
   width: 200px;
   height: 300px;
-  text-align: center;
-  align-content: center;
 }
 
 
 .creatore {
+  position: fixed;
   width: 100%;
   bottom: 0;
   right: 0;
@@ -48,4 +57,5 @@ button:hover {
   margin: 10px;
   background: black;
   color: white;
+  justify-content: space-between;
 }
